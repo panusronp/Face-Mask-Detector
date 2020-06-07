@@ -1,0 +1,8 @@
+train
+python train_mask_detector.py -dC:/Users/Guy/Desktop/face-mask-detector/dataset -pC:/Users/Guy/Desktop/face-mask-detector/plot.png -mC:/Users/Guy/Desktop/face-mask-detector/mask_detector.model
+
+picture
+python detect_mask_image.py -iC:/Users/Guy/Desktop/face-mask-detector/examples/1.jpg -fC:/Users/Guy/Desktop/face-mask-detector/face_detector -mC:/Users/Guy/Desktop/face-mask-detector/mask_detector.model -c0.5
+
+video
+python detect_mask_image.py -fC:/Users/Guy/Desktop/face-mask-detector/face_detector -mC:/Users/Guy/Desktop/face-mask-detector/mask_detector.model -c0.5
